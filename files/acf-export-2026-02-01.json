@@ -1,0 +1,66 @@
+[
+    {
+        "key": "group_697fa76698063",
+        "title": "Featured Case Fields",
+        "fields": [
+            {
+                "key": "field_697fa767f4684",
+                "label": "Case Type",
+                "name": "case_type",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "e.g. Car Accident, Work Injury",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_697fa7eff4685",
+                "label": "Settlement Amount",
+                "name": "settlement_amount",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "e.g., $25,000",
+                "prepend": "",
+                "append": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "featured_case"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
